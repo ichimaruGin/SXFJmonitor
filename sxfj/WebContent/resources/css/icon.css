@@ -1,0 +1,32 @@
+
+.machine_info{
+	background-image: url(../icons/information.png) !important;
+}
+.map{
+	background-image: url(../icons/map.png) !important;
+}
+.inf{
+	background-image: url(../icons/inf.png) !important;
+}
+.user{
+	background-image: url(../icons/user.png) !important;
+}
+.user_add{
+	background-image: url(../icons/increase.png) !important;
+}
+.user_delete{
+	background-image: url(../icons/decrease.png) !important;
+}
+.gear{
+	background-image: url(../icons/gear.png) !important;
+	width:20px;
+}
+.baidu{
+	background-image: url(../icons/baidu.png) !important;
+	width:20px;
+}
+.marker{
+	background-image: url(../icons/marker.png) !important;
+	height:20px;
+	width:20px;
+}
