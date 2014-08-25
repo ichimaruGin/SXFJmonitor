@@ -61,7 +61,7 @@
 					success: function(response){
 						console.log(response.responseText);
 						var res = Ext.decode(response.responseText, false);
-						if(res.result == 'true'){
+						if(res.result == true){
 							Ext.Msg.show({
 								title: '用户登录',
 								msg: '登录成功---正在跳转...',
@@ -73,7 +73,7 @@
 								location.href = '/sxfj/?loginin'
 							}, 500);
 							
-						}else if(res.result == 'false'){
+						}else if(res.result == false){
 							Ext.Msg.show({
 								title: '用户登录',
 								msg: '用户名或密码错误',
